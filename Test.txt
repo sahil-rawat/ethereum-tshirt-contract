@@ -1,0 +1,137 @@
+Test 1
+--------------------------------------------------------------------------------
+Test name: Place a new order with quantity 10
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to place a new order that accepts a numerical quantity of T-Shirts.
+
+Desired outcome: I should be able to verify on the Remix IDE that my new order has been placed and the same is available in a "placedorder" array and the order status has been set to "placed" and Quantity has been set to the number I supplied  i.e 10 along with the order id as 1.
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+
+Test 2
+--------------------------------------------------------------------------------
+Test name: View the placed order by entering orderid
+
+Test Description: As a user for Beach T-Shirt, I should be able to call a method to view the status of placed order status, this method accepts a numerical order id.
+
+Desired outcome: I should be able to verify on the Remix IDE that the order status is being shown and the order quantity is same as what i ordered i.e 10, when i enter the order id as 1
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+
+Test 3
+--------------------------------------------------------------------------------
+Test name: Accept the Order 
+
+Test Description: As a user for Threads Inc, I should be able to call a method to accept the orders placed by Beach T-Shirts, the method accepts a numerical quantity of T-Shirts.
+
+Desired outcome: I should be able to verify on the Remix IDE that the order has been accepted and the status has been updated to "completed" from "placed" and cost has been set to the price*quantity i.e 100*10=1000, also the order should be removed from the "placedorder" array and be added to "completedorder" array
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+
+Test 4
+--------------------------------------------------------------------------------
+Test name: Verify status of order
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to view the status of completed orders, this method accepts a numerical order id.
+
+Desired outcome: I should be able to verify on the Remix IDE that the completed order status is being shown and the values of cost and status are updated accordingly, i.e status="Completed" and Cost=1000.
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+
+Test 5
+--------------------------------------------------------------------------------
+Test name: Confirm Payment
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to confirm the payment once a order is completed.
+
+Desired outcome: I should be able to verify on the Remix IDE that on confirming payment, the payment status is updated from "pending" to "completed".
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+Test 6
+--------------------------------------------------------------------------------
+Test name: Place a new order  with quantity 20
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to place a new order that accepts a numerical quantity of T-Shirts.
+
+Desired outcome: I should be able to verify on the Remix IDE that my new order has been placed and the same is available in a "placedorder" array and the order status has been set to "placed" and Quantity has been set to the number I supplied  i.e 20 along with the order id as 2.
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+
+Test 7
+--------------------------------------------------------------------------------
+Test name: View the placed order by entering orderid
+
+Test Description: As a user for Beach T-Shirt, I should be able to call a method to view the status of placed order status, this method accepts a numerical order id.
+
+Desired outcome: I should be able to verify on the Remix IDE that the order status is being shown and the order quantity is same as what i ordered i.e 20, when i enter the id as 2
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+
+Test 8
+--------------------------------------------------------------------------------
+Test name: Accept the Order using the order id as 2
+
+Test Description: As a user for Threads Inc, I should be able to call a method to accept the orders placed by Beach T-Shirts, the method accepts a numerical quantity of T-Shirts.
+
+Desired outcome: I should be able to verify on the Remix IDE that the order has been accepted and the status has been updated to "completed" from "placed" and cost has been set to the price*quantity i.e 100*20=2000, also the order should be removed from the "placedorder" array and be added to "completedorder" array
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+
+Test 9
+--------------------------------------------------------------------------------
+Test name: Verify status of order
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to view the status of completed orders, this methoda ccepts a numerical order id.
+
+Desired outcome: I should be able to verify on the Remix IDE that the completed order status is being shown and the values of cost and status are updated accordingly, when i enter the order id as 2.
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
+
+
+Test 10
+--------------------------------------------------------------------------------
+Test name: Confirm Payment
+
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to confirm the payment once a order is completed.
+
+Desired outcome: I should be able to verify on the Remix IDE that the completed order status has been updated and the payment is updated from "pending" to "completed".
+
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+
+Result: Pass
+--------------------------------------------------------------------------------
